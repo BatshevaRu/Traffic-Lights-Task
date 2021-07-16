@@ -1,0 +1,24 @@
+.lights-frame{
+    background-color: #888;
+    border: #666 solid 2px;
+    width: 100px;
+    display: grid;
+
+    .lights-circle{
+        margin: 10%;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: white;
+        &.red-light{
+            background-color: #FF0000;
+        }
+        &.yellow-light{
+            background-color: #FFFF00;
+        }
+        &.green-light{
+            background-color: #1FEA00;
+        }
+        
+    }
+} 
